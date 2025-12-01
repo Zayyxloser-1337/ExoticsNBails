@@ -1,6 +1,6 @@
 # Modified Whatsapp-API
 <p align='center'>
-  <img src="https://files.catbox.moe/rhm9rt.webp" width="172">
+  <img src="[https://files.catbox.moe/ubatdf.jpg]" width="172">
 </p>
 
 --- 
@@ -8,7 +8,7 @@
 ## Usage
 ```json
 "depencies": {
-  "@whiskeysockets/baileys": "github:tenka-san/WaBails"
+  "@whiskeysockets/baileys": "github:Zayyxloser-1337/ExoticsNBails"
 }
 ```
 ## Import
@@ -62,8 +62,8 @@ const ZeppImg = fs.readFileSync('./ZeppImage');
 
 await client.sendMessage(m.chat, {
   thumbnail: ZeppImg,
-  message: "Gotta get a grip",
-  orderTitle: "7eppeli-Corporation",
+  message: "Jembod",
+  orderTitle: "AhK",
   totalAmount1000: 72502,
   totalCurrencyCode: "IDR"
 }, { quoted:m })
@@ -73,7 +73,7 @@ await client.sendMessage(m.chat, {
 ```javascript
 await client.sendMessage(m.chat, {
   pollResultMessage: {
-    name: "7eppeli-Corporation",
+    name: "Kontol X Engine",
     options: [
       {
         optionName: "poll 1"
@@ -83,7 +83,7 @@ await client.sendMessage(m.chat, {
       }
     ],
     newsletter: {
-      newsletterName: "7eppeli | Killer Queen Information",
+      newsletterName: "$ Exotics Clear",
       newsletterJid: "1@newsletter"
     }
   }
@@ -94,18 +94,18 @@ await client.sendMessage(m.chat, {
 ```javascript
 await client.relayMessage(m.chat, {
   productMessage {
-    title: "7eppeli.pdf",
-    description: "zZZ...",
+    title: "ExoticsX",
+    description: "ExoticsTeam",
     thumbnail: { url: "./ZeppImage" },
     productId: "EXAMPLE_TOKEN",
     retailerId: "EXAMPLE_RETAILER_ID",
-    url: "https://t.me/YuukeyD7eppeli",
-    body: "Nak Tido",
+    url: "https://t.me/exoticsteamx",
+    body: "ExoticsHereeXx",
     footer: "Footer",
     buttons: [
       {
         name: "cta_url",
-        buttonParamsJson: "{\"display_text\":\"7eppeli-Pdf\",\"url\":\"https://t.me/YuukeyD7eppeli\"}"
+        buttonParamsJson: "{\"display_text\":\"ExoticsEngine\",\"url\":\"https://t.me/exoticsteamx\"}"
       }
     ],
     priceAmount1000: 72502,
@@ -113,4 +113,4 @@ await client.relayMessage(m.chat, {
   }
 })
 ```
-Follow https://t.me/TenkaWaBails kalau mau liat type message yg lain :v
+Follow https://t.me/exoticsteamx kalau mau liat type message yg lain :v
